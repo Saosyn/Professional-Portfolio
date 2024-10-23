@@ -26,23 +26,21 @@
     <title>Document</title>
   </head>
   <header class="banner">
-    <img id="banner-img" src="assets/img/space-banner.jpg"/>
+    <img
+      id="banner-img"
+      src="assets/img/space-banner.jpg"
+    />
+  </header>
   <body>
-    <header class="name">Tim Ehli</header>
+    <div class="name">Tim Ehli</div>
     <nav class="links">
       <a href="#ABOUT_ME">About Me</a>
       <a href="#WORK">Work</a>
       <a href="#CONTACT_ME">Contact Me</a>
       <a href="#RESUME">Resume</a>
     </nav>
-  </header>
-    <section>
-      <h2
-        id="ABOUT_ME"
-        class="bout-me"
-      >
-        About ME
-      </h2>
+    <section class="bout-me">
+      <h2>About ME</h2>
       <p>
         This is where I'm going to add text about myself. Lorem ipsum dolor sit
         amet consectetur adipisicing elit. Labore, animi facilis expedita
@@ -52,29 +50,37 @@
     </section>
     <!-- the start of the tile layout -->
     <!-- TILE 1 -->
+
+    <h2
+      id="WORK"
+      class="work-head"
+    >
+      Work
+    </h2>
     <section class="main-tile">
-      <h2 id="WORK">Work</h2>
       <div>Main tile box</div>
     </section>
-    <!-- TILE 2 -->
-    <aside class="sm-tile">
-      <h3 class="tile-head">2nd Tile</h3>
-      <div>2nd tile box</div>
-    </aside>
-    <!-- TILE 3 -->
-    <aside class="sm-tile">
-      <h3 class="tile-head">3rd Tile</h3>
-      <div>3rd tile box</div>
-    </aside>
-    <!-- TILE 4 -->
-    <aside class="sm-tile">
-      <h3 class="tile-head">4th Tile</h3>
-      <div>4th tile box</div>
+    <section class="tiles">
+      <!-- TILE 2 -->
+      <aside class="sm-tile">
+        <h3 class="tile-head">2nd Tile</h3>
+        <div>2nd tile box</div>
+      </aside>
+      <!-- TILE 3 -->
+      <aside class="sm-tile">
+        <h3 class="tile-head">3rd Tile</h3>
+        <div>3rd tile box</div>
+      </aside>
+      <!-- TILE 4 -->
+      <aside class="sm-tile">
+        <h3 class="tile-head">4th Tile</h3>
+        <div>4th tile box</div>
+      </aside>
       <!-- TILE 5 -->
       <aside class="sm-tile">
         <h3 class="tile-head">5th Tile</h3>
         <div>5th tile box</div>
       </aside>
-    </aside>
+    </section>
   </body>
 </html>
