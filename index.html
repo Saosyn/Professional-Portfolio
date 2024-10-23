@@ -10,20 +10,39 @@
       rel="stylesheet"
       href="assets/style.css"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
-  <body class="banner">
+  <header class="banner">
+    <img id="banner-img" src="assets/img/space-banner.jpg"/>
+  <body>
     <header class="name">Tim Ehli</header>
     <nav class="links">
-      <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact Me</a></li>
-        <li><a href="#">Resume</a></li>
-      </ul>
+      <a href="#ABOUT_ME">About Me</a>
+      <a href="#WORK">Work</a>
+      <a href="#CONTACT_ME">Contact Me</a>
+      <a href="#RESUME">Resume</a>
     </nav>
+  </header>
     <section>
-      <h2 class="bout-me">About ME</h2>
+      <h2
+        id="ABOUT_ME"
+        class="bout-me"
+      >
+        About ME
+      </h2>
       <p>
         This is where I'm going to add text about myself. Lorem ipsum dolor sit
         amet consectetur adipisicing elit. Labore, animi facilis expedita
@@ -34,7 +53,7 @@
     <!-- the start of the tile layout -->
     <!-- TILE 1 -->
     <section class="main-tile">
-      <h2>Work</h2>
+      <h2 id="WORK">Work</h2>
       <div>Main tile box</div>
     </section>
     <!-- TILE 2 -->

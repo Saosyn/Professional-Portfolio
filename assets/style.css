@@ -1,0 +1,59 @@
+/* .pixelify-sans-pixel {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+:root {
+    --pixel: "Pixelify Sans";
+    --orange: rgb(248, 164, 6);
+    --purple: rgb(121, 8, 121);
+    --blue: rgb(64, 64, 150);
+    --lightblue: rgb(178, 200, 207);
+}
+
+body {
+    font-family: var(--pixel);
+}
+
+.banner {
+    
+}
+
+#banner-img {
+    width: 100%;
+}
+
+.name {
+    font-size: 75px;
+    color: var(--orange);
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 25px;
+}
+
+.links {
+
+    position: absolute;
+    top: 25px;
+    right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: var(--lightblue);
+    background-color: var(--purple);
+}
+
+a:hover {
+    background-color: var(--orange);
+    color: var(--blue);
+    /* box-shadow: 5px 5px 5px black inset; */
+    /* box-shadow: 10px 5px 5px red; */
+    box-shadow: var(--orange) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
