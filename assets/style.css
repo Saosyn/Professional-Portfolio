@@ -11,6 +11,7 @@
     --purple: rgb(121, 8, 121);
     --blue: rgb(64, 64, 150);
     --lightblue: rgb(178, 200, 207);
+    --green: rgb(23, 179, 23);
 }
 
 html {
@@ -88,10 +89,11 @@ a:hover {
 
 .main-tile {
     background-color: var(--lightblue);
-    height: 300px;
+}
+
+.matrix-script {
     border: 5px solid var(--purple);
     border-radius: 10px;
-    margin: 0 15px;
 }
 
 .tiles {
@@ -103,9 +105,25 @@ a:hover {
 }
 
 .sm-tile {
-    background-color: aqua;
     border: 5px solid black;
-    width: 45%;
+    position: relative;
     margin: 15px;
-    height: 150px;
+}
+
+.tile-head-left {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 5px;
+    color: var(--purple);
+    background-color: var(--green);
+}
+
+.tile-head-right {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 5px;
+    color: var(--orange);
+    background-color: blue;
 }
