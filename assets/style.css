@@ -88,7 +88,16 @@ a:hover {
 }
 
 .main-tile {
-    background-color: var(--lightblue);
+    display: flex;
+    justify-content: center;
+}
+
+.main-tile-top-center {
+    position: absolute;
+    margin-top: 10px;
+    background-color: var(--orange);
+    color: var(--purple);
+    opacity: .3;
 }
 
 .matrix-script {
@@ -116,7 +125,7 @@ a:hover {
     top: 10px;
     left: 5px;
     color: var(--purple);
-    background-color: var(--green);
+    background-color: var(--green); opacity: .3;
 }
 
 .tile-head-right {
@@ -125,5 +134,21 @@ a:hover {
     top: 10px;
     right: 5px;
     color: var(--orange);
-    background-color: blue;
+    background-color: blue; opacity: .3;
+}
+
+.tile-head-left:hover, .tile-head-right:hover, .main-tile-top-center:hover {
+    opacity: 1.0;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+   .tiles {
+    display: flex;
+    flex-direction: column;
+   } 
 }
